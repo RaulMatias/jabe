@@ -1,4 +1,4 @@
-module SlackGabebot
+module GabebBotler
   module Commands
     class Advice < SlackRubyBot::Commands::Base
       command 'what should I do' do |client, data, _match|
