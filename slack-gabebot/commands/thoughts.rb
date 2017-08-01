@@ -40,6 +40,12 @@ module SlackGabebot
 	        client.say(channel: data.channel, text: response)
 	      end
       end
+
+      match /i think/ do |client, data, _match|
+      	responses = Responses.disagreements
+      	response = responses[Random.rand(responses.length)]
+        client.say(channel: data.channel, text: response)
+      end
     end
   end
 end

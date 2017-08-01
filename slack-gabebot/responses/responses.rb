@@ -97,4 +97,14 @@ module Responses
 			]
 	end
 
+	def self.disagreements
+		response = 
+			[
+				"I disagree",
+				"Incorrect",
+				"I don't think so, but we can take this offline",
+				
+			]
+	end
+
 end
