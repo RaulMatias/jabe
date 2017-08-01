@@ -14,7 +14,7 @@ module GabebBotler
         client.say(channel: data.channel, text: response)
       end
 
-      match '/(hey|sup)/' do |client, data, _match|
+      match /(hey|sup)/ do |client, data, _match|
       	responses = Responses.greetings
       	response = responses[Random.rand(responses.length)]
         client.say(channel: data.channel, text: response)
