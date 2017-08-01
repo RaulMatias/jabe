@@ -1,4 +1,4 @@
-module SlackGabebot
+module GabebBotler
   module Commands
     class Thoughts < SlackRubyBot::Commands::Base
 

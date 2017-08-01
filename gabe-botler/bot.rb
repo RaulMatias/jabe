@@ -1,4 +1,4 @@
-module SlackGabebot
+module GabebBotler
   class Bot < SlackRubyBot::Bot
   	help do
   		title "Gabe McGabeface"

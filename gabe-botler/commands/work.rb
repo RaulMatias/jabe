@@ -1,4 +1,4 @@
-module SlackGabebot
+module GabebBotler
   module Commands
     class Work < SlackRubyBot::Commands::Base
       command 'what are you doing' do |client, data, _match|

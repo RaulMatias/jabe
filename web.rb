@@ -1,6 +1,6 @@
 require 'sinatra/base'
 
-module SlackGabebot
+module GabebBotler
   class Web < Sinatra::Base
     get '/' do
       'I GABE.'

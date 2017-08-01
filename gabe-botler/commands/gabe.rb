@@ -1,4 +1,4 @@
-module SlackGabebot
+module GabebBotler
   module Commands
     class Gabe < SlackRubyBot::Commands::Base
       match(/^(?<bot>\w*)$/)
