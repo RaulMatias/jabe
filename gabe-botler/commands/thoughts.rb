@@ -33,7 +33,7 @@ module GabebBotler
         client.say(channel: data.channel, text: response)
       end
 
-      match /http[s]*:\/\/(?<domain>[A-Za-z]*).[a-z\/\-0-9]+/ do |client, data, _match|
+      match /http[s]*:\/\/[w.]*(?<domain>[A-Za-z]*).[a-z\/\-0-9]+/ do |client, data, _match|
       	if @gabe_interests.include?(_match[:domain])
 	      	responses = Responses.exclamations
 	      	response = responses[Random.rand(responses.length)]
